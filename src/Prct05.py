@@ -2,7 +2,6 @@ n=int(raw_input('Valor de n: '))
 sumatorio=0.0
 for i in range(1,n+1):
   x=(i-0.5)/float(n)
-  print x
   b=i/float(n)
   a=(i-1)/float(n)
   fx=4.0/(1+x**2)
